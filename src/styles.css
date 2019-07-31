@@ -1,3 +1,55 @@
 body {
   font-family: sans-serif;
+  height: 1500px;
+  width: 100%;
+}
+
+.momobox {
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: orange;
+}
+.momobox1 {
+  margin-top: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: #ff7979;
+  position: fixed;
+  z-index: 1;
+}
+.momobox2 {
+  background-color: #badc58;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  left: 76%;
+  top: 0;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.momobox3 {
+  background-color: #7ed6df;
+  width: 80%;
+  height: 800px;
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  padding: 50px;
+}
+.momobox4 {
+  background-color: #f9ca24;
+  border: 5px solid grey;
+  width: 20%;
+  position: absolute;
+  height: 890px;
+  top: 0;
+  right: 0;
 }
